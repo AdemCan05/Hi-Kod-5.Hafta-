@@ -1,7 +1,5 @@
-# Hi-Kod-5.Hafta-
-Bu repo Hi-Kod 2.0 Mobil Uygulama Geliştirme 4.Atolye için 5.hafta ödevleri için oluşturulmuştur.
-
---------------------------------------------------------------------------------------------------------------------- 
+# Hi-Kod-5.Hafta
+Bu repo Hi-Kod 2.0 Mobil Uygulama Geliştirme 4.Atolye için 5.hafta ödevleri için oluşturulmuştur. 
 
 ## ✏️ Ödev-1
  
@@ -16,6 +14,6 @@ Bu repo Hi-Kod 2.0 Mobil Uygulama Geliştirme 4.Atolye için 5.hafta ödevleri i
 2- List<int> numbers = [5, 10, 15, 20, 25];
 dizisinin elemanlarının toplamını bulan bir fonksiyon yazınız ve bu toplamı main'de bastırınız.
 
- 3-0'dan 100'e kadar sayıların ortalamasını bulan bir program yazınız.
+3- 0'dan 100'e kadar sayıların ortalamasını bulan bir program yazınız.
 
-atölye sağlayıcı: Beyza yalvaç 
+Atölye Sağlayıcı: Beyza Yalvaç 
