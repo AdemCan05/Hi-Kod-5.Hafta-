@@ -1,14 +1,10 @@
-// 0'dan 100'e kadar(100 dahil) sayıların ortalamasını alan koddur
 void main() {
-  int sum = 0; // öncelikle toplam değişkeni oluşturdum 0 atadım
-  int all_num =
-      101; // ortalama için gereken ne kadar sayı olduğunu gösteren değişken oluşturdum ve atadım
-
-  // 0'dan 100'e kadar olan sayıları artırıp sum değişkenine atayan For loop kullandım.
-  for (int num = 0; num <= 100; num++) {
-    sum += num;
-  }
-  // ortalama değişkeni oluşturdum ondalıklı olması için double veri tipini kullandım
-  double avarage = sum / all_num;
-  print(avarage); // ortalamayı yazdırdım.
+  Set<String> names = {'Adem','Asli','Kerem','Melike','Sila','Fatma','Melisa','Bengisu','Berivam','Fazil', 'Kenan'}; // Names adında isimler içeren bir set oluşturdum
+  //names setindeki toplamda 10 dan küçük değer varsa Küçük diğer durumlarda büyük yazdırır.
+    if(names.length < 10){ 
+      print("Kucuk");
+    }
+    else{
+      print("Buyuk");
+    }
 }
