@@ -20,8 +20,8 @@ Aşağıdaki adımları izleyerek projeyi çalıştırabilirsiniz:
 ### Mobil Uygulama Geliştirme Atölyesi 
 ### Hafta 5 Ödev 
 
-1. Dışarıdan alınan diziyi tersine çeviren bir fonksiyon oluşturup main'de bu fonksiyonu bir diziye uygulayınız; sonrasında dizinin orijinal ve ters çevrilmiş halini ekrana bastırınız.
-2. `List<int> numbers = [5, 10, 15, 20, 25];` dizisinin elemanlarının toplamını bulan bir fonksiyon yazınız ve bu toplamı main'de bastırınız.
-3. 0'dan 100'e kadar sayıların ortalamasını bulan bir program yazınız.
+1. `List<int> numbers = [5, 10, 15, 20, 25];` listedeki çift sayıların sayısını bulan bir Dart programı yazınız.
+2. `Map<String, int> notlar = {'Ali': 4, 'Veli': 6, 'Ahmet': 8};` Verilen map'teki değerlerin toplamı 10'dan büyükse "Büyük", küçükse "Küçük" yazan bir Dart programı yazınız.
+3. Bir int tipinde set oluşturun ve içerisinde 10 sayısı var mı diye kontrol eden bir Dart programı yazınız. Eğer varsa, "10 bulundu", yoksa "10 bulunamadı" yazsınız.
 
 Atölye Sağlayıcı: Beyza Yalvaç
