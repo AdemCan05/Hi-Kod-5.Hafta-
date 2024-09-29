@@ -1,11 +1,11 @@
-/*Dışarıdan alınan diziyi tersine çeviren bir fonksiyon oluşturup 
-main'de bu fonksiyonu bir diziye uygulama sonrasında 
-dizinin orijinal ve ters çevrilmiş halini ekrana bastıran kod*/
 void main() {
-  List<int> numbers = [5, 10, 15, 20, 25]; //Dışarıdan bir dizi tanımladım
-  print('Orjinal hali: $numbers'); //orijinal halini yazıdırm
+  int even_num = 0; //Çift sayılar değişkeni atadım ve başlangıç için 0 verdim
+  List<int> numbers = [5, 10, 15, 20, 25]; 
 
-  print('Ters hali: ${numbers.reversed.toList()}'); //ters halini yazdırdım
+  for (int number in numbers) { //dizideki 2 ye tam bölünebilen tam sayı varsa tek tek even_num değerine gitti ve 1 arttırdı
+    if (number % 2 == 0) {
+      even_num++;
+    }
+  }
+  print(even_num); //son durumda çift sayı sayısını yazdırdım
 }
-/*Not: Hocam dışarıdan derken consoldan değer girerekten dizi oluşturmaktan söz
-ediyorsanız konsoldan değer almayı önceki derste söz etmediniz*/
