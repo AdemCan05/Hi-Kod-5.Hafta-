@@ -1,10 +1,15 @@
-// dizinin elemanlarının toplamını bulan bir kod
-void main() {
-  List<int> numbers = [5, 10, 15, 20, 25]; //dizi tanımlandı
-  int sum = 0; // sum değişkeni tanımlandı ve başlangıç için 0 atandı
-  for (int i in numbers) {
-    // pythondaki for i in range düşünerekden dizinin elemanlarını toplayan for loop yazdım
-    sum += i; // dizideki bütün değerleri toplayarak sum'a atadım
+void main(){
+  int total = 0; //Toplam değişekimi atadım ve başlangıçta 0 verdim
+  Map<String, int> notlar = {'Ali': 4, 'Veli': 6, 'Ahmet': 8};
+
+  for (var value in notlar.values){ //mapdaki değerleri tek tek alıp total değişkenime ekler
+    total += value;
   }
-  print(sum); // sum değerini yazdırdım
+  //ilk durum için total 10 dan küçükse küçük yazdırır. diğer durumlar için de büyük yazdırır.
+  if (total < 10){ 
+    print("10'dan kucuk");
+  }
+  else{
+    print("10'dan buyuk");
+  }
 }
